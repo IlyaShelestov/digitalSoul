@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+body {
+  font-family: "Gilroy-Medium";
+}
+
+.text-color-blue {
+  color: #2d79cf;
+}
+
+.text-color-purple {
+  color: #4c3cb8;
+}
+
+.text-color-teal {
+  color: #1c9890;
+}
+
+.text-bold {
+  font-family: "Gilroy-Bold";
+}
+
+.btn {
+  background-color: #2d79cf;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+form {
+  border: 5px solid #1c9890;
+  padding: 40px 60px 40px 60px;
+  border-radius: 10px;
+}
+
+.fade-gray {
+  background-color: #f5f5f5;
+  filter: grayscale(100%) brightness(75%);
+}
